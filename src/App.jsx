@@ -1,14 +1,13 @@
 import './App.css';
 import { Editor } from 'react-draft-wysiwyg';
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
-import { useEffect } from 'react';
 
 function App() {
 
   return (
     <div className="App">
       <div className="container">
-        <img  className="scale-1"className="my-photo" src="https://avatars.githubusercontent.com/u/83123090?v=4" alt="" ></img>
+        <img className="my-photo" src="https://avatars.githubusercontent.com/u/83123090?v=4" alt="" ></img>
         <h1 className="blinker">Hello! Welcome!<br /> 
         This is a Editor Text ✍</h1> 
       
