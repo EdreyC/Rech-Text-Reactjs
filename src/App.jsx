@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <img  className="scale-1"className="my-photo" src="https://avatars.githubusercontent.com/u/83123090?v=4" alt="" ></img>
-        <h1 className="blinker">Hello! Welcome<br /> 
+        <h1 className="blinker">Hello! Welcome!<br /> 
         This is a Editor Text ✍</h1> 
       
         <Editor></Editor>
