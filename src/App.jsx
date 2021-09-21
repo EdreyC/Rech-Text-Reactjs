@@ -10,8 +10,10 @@ function App() {
         <img className="my-photo" src="https://avatars.githubusercontent.com/u/83123090?v=4" alt="" ></img>
         <h1 className="blinker">Hello! Welcome!<br /> 
         This is a Editor Text ✍</h1> 
-      
-        <Editor></Editor>
+        <div className="Editor">
+          <Editor ></Editor>
+        </div>
+        
         </div>
  
         <a className="link"href="https://github.com/EdreyC">Back to my Github</a>

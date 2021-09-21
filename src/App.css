@@ -11,8 +11,12 @@
   
 }
 @keyframes blinker{
-  50%{
+  0%{
     color: rgb(34, 108, 246);
+  }
+  100%{
+    color: rgb(126, 34, 246);
+
   }
  
 }
@@ -69,6 +73,13 @@ h1{
 }
 
 .blinker{
-  
-  animation: blinker 1.3s infinite ease-out;
+  animation-name: blinker;
+  animation-duration: 2.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.Editor{
+  box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
